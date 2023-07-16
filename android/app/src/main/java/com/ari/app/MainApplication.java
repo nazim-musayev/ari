@@ -1,4 +1,4 @@
-package com.chaghir;
+package com.ari.app;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
