@@ -15,7 +15,7 @@ const Button = ({
   ...props
 }: ButtonProps): JSX.Element => {
 
-  const touchableClasses = `h-[52px] justify-center items-center rounded-3xl shadow-md ${
+  const touchableClasses = `w-full h-[52px] justify-center items-center rounded-3xl shadow-md ${
     theme === ButtonTheme.Primary ? 'bg-brand-500' : 'bg-[#e6d8fa]'
   }`;
   
