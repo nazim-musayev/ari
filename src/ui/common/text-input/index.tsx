@@ -1,4 +1,4 @@
-import { useController, FieldError, Control } from 'react-hook-form';
+import { useController, Control } from 'react-hook-form';
 import { TextInput as Input, TextInputProps, View } from 'react-native';
 
 import ErrorMessage from '../error-message';
@@ -29,7 +29,7 @@ const TextInput = ({
         value={field.value}
         className={`
         bg-zinc-50 h-[52] px-4 mb-1 rounded-xl
-          border border-${error ? 'red-500' : 'gray-100'}
+          border ${error ? 'border-red-500' : 'border-gray-100'}
         focus:border-brand-500 focus:bg-[#f4edff]
           ${className}
         `}
